@@ -8,9 +8,11 @@ body {
     margin: 0;
 }
 
-.contaner {
+.container {
     display: flex;
     margin-top: 100px;
+    gap: 20px;
+    padding: 40px;
 }
 
 .font-color {
@@ -138,4 +140,27 @@ footer {
 .ui {
     font-size: 30px;
     font-weight: 900;
+}
+
+.food-img {
+    width: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.food-img img {
+    width: 350px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 50%;
+    padding: 8px;
 }
