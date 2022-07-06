@@ -3,21 +3,43 @@
     margin: 0%;
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.top-container div {
+    width: 100%;
+    padding: 50px;
+}
+
+.top-container img {
+    width: 100%;
+}
+
+.main-container {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .container {
     display: flex;
     margin-top: 100px;
     gap: 20px;
-    padding: 40px;
+    padding: 60px;
 }
 
 .font-color {
     color: #d69d31;
 }
+
 
 .big {
     color: #043b24;
@@ -34,13 +56,9 @@ body {
     font-weight: 500;
 }
 
-.cl-b {
-    color: #355755ef;
-    margin-bottom: 60px;
-    font-size: 16px;
-    font-weight: 500;
+/* .second-info{
     width: 50%;
-}
+} */
 
 .my {
     color: #355755ef;
@@ -49,9 +67,7 @@ body {
 }
 
 .half {
-    width: 50%;
-    padding-left: 5%;
-    margin-right: 5px;
+    padding: 20px;
 
 }
 
@@ -60,7 +76,12 @@ body {
     background-image: linear-gradient(red blue);
 }
 
-.button-color {
+.food-text {
+    padding: 20px;
+}
+
+.button {
+    width: 100px;
     text-decoration: none;
     background-color: orange;
     background-image: linear-gradient(orange tomato);
@@ -71,7 +92,7 @@ body {
 
 }
 
-.top {
+.top-container {
     background-image: url(8.jpg);
     margin: 0;
     background-size: cover;
@@ -85,24 +106,56 @@ body {
 .top-second {
     background-image: url(7.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
 
 }
 
-.recipies {
-    text-align: center;
-    margin-top: 100px;
+.second-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+.second-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.recipies-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-info h1 {
+    margin-bottom: 20px;
+}
+
+/* .second-text{
+    width: 50%;
+} */
 
 #border {
     box-shadow: 10px 10px 40px #928570;
     border-radius: 30px;
     margin-right: 5px;
     margin-left: 5px;
+    padding: 35px;
+
 }
 
 .short {
     display: flex;
     margin-bottom: 100px;
+    justify-content: space-around;
 }
 
 #ad {
@@ -142,25 +195,6 @@ footer {
     font-weight: 900;
 }
 
-.food-img {
-    width: 50%;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-}
-
-.food-img img {
-    width: 350px;
-    border-radius: 10px;
-    height: 250px;
-}
-
-.food-container {
-    display: flex;
-    justify-content: center;
-}
-
-.info {
-    width: 50%;
-    padding: 8px;
+.footer {
+    padding: 50px;
 }
